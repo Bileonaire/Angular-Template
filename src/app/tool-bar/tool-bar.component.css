@@ -1,0 +1,21 @@
+button{
+  background: transparent;
+  border: 0;
+  margin: auto 1em;
+}
+button:hover, button:focus {
+  cursor: pointer;
+}
+
+li, ul{
+  list-style: none;
+}
+
+mat-toolbar{
+  background: transparent;
+  margin-top: 1em;
+}
+
+.welcome{
+  font-size: 32px;
+}

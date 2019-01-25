@@ -1,0 +1,36 @@
+<mat-toolbar>
+
+  <mat-toolbar-row>
+    <button mat-icon-button (click)="toggleSideNav()" fxHide.gt-sm>
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <span class="welcome"> Welcome User </span>
+
+    <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+
+      <ul fxLayout fxLayoutGap="20px">
+
+        <li>
+          <button mat-icon-button>
+            <mat-icon>settings</mat-icon>
+          </button>
+        </li>
+
+        <li>
+          <button mat-icon-button>
+            <mat-icon>help_outline</mat-icon>
+          </button>
+        </li>
+
+        <li>
+          <button mat-icon-button>
+            <mat-icon>person_outline</mat-icon>
+          </button>
+        </li>
+      </ul>
+
+    </div>
+
+  </mat-toolbar-row>
+</mat-toolbar>

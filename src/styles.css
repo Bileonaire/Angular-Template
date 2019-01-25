@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html, body {
+  height: 100%;
+}
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+@font-face {
+  font-family: "DIN Pro";
+  src: url("assets/din-pro/FontFont-DINPro.otf") format("opentype");
+}
+@font-face {
+  font-family: "DIN Pro Black";
+  src: url("assets/din-pro/FontFont-DINPro-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN Pro Bold";
+  src: url("assets/din-pro/FontFont-DINPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN Pro Extlight";
+  src: url("assets/din-pro/FontFont-DINPro-Extlight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN Pro Light";
+  src: url("assets/din-pro/FontFont-DINPro-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN Pro LightItalic";
+  src: url("assets/din-pro/FontFont-DINPro-LightItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "DIN Pro Medium";
+  src: url("assets/din-pro/FontFont-DINPro-Medium.otf") format("opentype");
+}
+
+* {
+  font-family: "DIN Pro", sans-serif;
+}
+
+.andela-blue-color{
+  color: #3359DB !important;
+}
+.andela-yellow-color{
+  color: #FFAF30 !important;
+}
+.andela-gray-color{
+  color: #808FA3 !important;
+}
+.andela-dark-gray-color{
+  color: #4F4F4F !important;
+}
+
+.andela-blue-background{
+  background-color: #3359DB !important;
+}
+.andela-yellow-background{
+  background-color: #FFAF30 !important;
+}
+.andela-gray-background{
+  background-color: #808FA3 !important;
+}
+.andela-dark-gray-background{
+  background-color: #4F4F4F !important;
+}
